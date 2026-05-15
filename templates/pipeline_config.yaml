@@ -1,0 +1,21 @@
+pipeline:
+  name: korea_semiconductor_trade_signal
+  timezone: Asia/Seoul
+  source_market: KR
+  target_markets: [KR, US, TW, CN]
+  schedule:
+    regular_days: '*/10'
+    extra_days: [1, 11, 21]
+  signals:
+    - SSD
+    - HBM_PROXY
+  robustness_flags:
+    - is_preliminary
+    - is_unit_changed
+    - is_code_rebucketed
+    - revision_size
+  outputs:
+    - auto_research_report.md
+    - dual_section_research_report.md
+    - excess_return_event_summary.csv
+    - robustness_summary.csv

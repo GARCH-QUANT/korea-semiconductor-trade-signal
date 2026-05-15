@@ -1,140 +1,26 @@
-# KoreaTradeSemiconductor
-韩国贸易统计半导体代理信号研究框架
+# Korea Semiconductor Trade Signal
 
-> 本项目把韩国官方贸易统计和品目级贸易统计转化成一个可持续运行、可研究验证、可对外输出的半导体高频代理信号系统。
+A reusable research and deployment skill for tracking Korean SSD/HBM export proxy signals.
 
----
+## Core use cases
 
-## 项目定位
+- KCS trade-statistics monitoring
+- TRASS / KTSPI item-level HS research
+- SSD / HBM proxy signal construction
+- event study and excess-return research
+- Telegram summaries and operational scheduling
 
-本项目是一个**基于韩国官方贸易统计与品目级贸易统计的半导体高频代理信号研究框架**，重点跟踪 SSD、DRAM、HBM 相关出口金额、数量、重量与隐含单价的变化，并将这些变化映射到产业链、事件研究、超额收益和自动报告体系中。
+## Main files
 
-它不是一个单纯的数据抓取工具，也不是一个单纯的展示页面，而是一个围绕韩国半导体出口代理信号构建研究结论与输出研究产品的系统化工作流。
+- `SKILL.md` — formal skill overview and usage guidance
+- `src/korea_trade_tracker_pro.py` — core tracker (fetch → parse → signal → persist → alert)
+- `sql/schema.sql` — SQLite database schema
+- `sql/signal_queries.sql` — signal monitor view with MoM calculation
+- `templates/pipeline_config.yaml` — pipeline configuration
+- `ops/bootstrap_deploy.sh` — systemd deployment script
 
----
+## Upload guidance
 
-## 数据源逻辑
+For skill uploads, include the whole folder so the structure, templates, and deployment guidance stay consistent.
 
-| 数据源 | 定位 | 核心职责 |
-|--------|------|----------|
-| **KCS**（韩国海关，.customs.go.kr） | 官方高频动态与快报节奏 | 贸易统计入口、关税汇率周报（USD/JPY/CNY/EUR）、政策公告 |
-| **TRASS**（韩国贸易统计推广院，bandtrass.or.kr） | 细颗粒度品目统计与编码核验 | 품目统计查询、HS代码检索、품목별 단가分析 |
-
----
-
-## 核心研究指标
-
-项目的核心指标不是单独的出口金额，而是由**出口金额与数量或重量共同构造的隐含出口单价**：
-
-```
-隐含单价 = 出口金额（$） ÷ 出口数量（件/台）
-          或（数量不可得时）出口金额（$） ÷ 出口重量（kg）
-```
-
-这个指标本质上是海关统计口径下的**平均价格代理变量**，用于观察价格变化、结构升级和可能的供需变化趋势。研究重点不在"绝对精确还原厂商 ASP"，而在"构造高频、持续、可比较的**方向性代理信号**"。
-
----
-
-## SSD 与 HBM 的处理逻辑
-
-### SSD（固态硬盘）
-先从较明确的主编码切入，再逐步核验数量、金额和单价口径，**更容易形成第一阶段可落地的代理信号体系**。
-
-### HBM（高带宽内存）
-HBM 不宜被简单视为单一固定编码。更合理的做法是从 DRAM / memory 类编码切入，结合 10 位编码池做动态维护与迭代确认。
-
-> HBM 研究的难点不是图表展示，而是**候选编码池管理、口径追踪和版本化维护**。
-
-### 研究纪律：SSD 与 HBM 必须分开维护、分开报告、分开解释
-避免混合叙事导致结论失真。
-
----
-
-## 系统结构（六层架构）
-
-```
-┌─────────────────────────────────────────────────────────┐
-│  输出层  │  动态看板 · Telegram摘要 · Markdown研究报告   │
-├─────────────────────────────────────────────────────────┤
-│  研究层  │  事件研究 · 超额收益分析 · 回归验证            │
-├─────────────────────────────────────────────────────────┤
-│  信号层  │  金额 · 数量 · 重量 · 单价 · 版本标记          │
-├─────────────────────────────────────────────────────────┤
-│  抓取层  │  请求调度 · 站点健康检查 · 反爬策略            │
-├─────────────────────────────────────────────────────────┤
-│  数据源层│  KCS（海关）· TRASS（贸易统计院）             │
-├─────────────────────────────────────────────────────────┤
-│  运维层  │  配置管理 · Cron调度 · 归档 · 失败告警         │
-└─────────────────────────────────────────────────────────┘
-```
-
----
-
-## 研究验证逻辑
-
-研究验证必须从"商品信号"进一步走向"市场信号"。框架不仅要跟踪 SSD/HBM 代理单价本身，还要把信号映射到：
-
-- **直接受益层**（SK Hynix、Samsung 等）
-- **生态映射层**（AI 服务器、GPU 供应链等）
-
-并观察信号发布后不同窗口的收益表现。为避免把共同市场波动误判成贸易信号效应，研究框架应**尽量以超额收益为核心**，而不是仅看原始收益。
-
-> 重点放在：信号强弱 × 暴露强弱 × 研究分组之间的超额收益差异。
-
----
-
-## 研究纪律
-
-1. **事件时点对齐**：韩国信号发布时间与各市场可交易时间并不一致，必须标注时区与窗口。
-2. **暂定值 / 修订值 / 最终值分开**：三者必须分开保存与解释，避免混用导致误判。
-3. **版本管理**：数量单位、重量单位、编码重分组和 HBM 候选码池调整均视为重要噪声源，纳入版本管理。
-4. **SSD / HBM 分开维护**：分开维护、分开报告、分开解释，避免混合叙事。
-
----
-
-## 当前执行策略
-
-当前阶段最优先的动作**不是继续扩张展示层**，而是：
-
-1. 打通真实 TRASS 查询逻辑
-2. 确认 SSD 主编码与 HBM 候选码池
-3. 固定版本管理规则
-4. 让最小流水线稳定运行
-
-在此基础上，再逐步引入更完整的研究验证、看板、推送和归档机制。
-
----
-
-## 目录结构
-
-```
-KoreaTradeSemiconductor/
-├── README.md
-├── config/
-│   └── hs_codes.yaml        # HS编码池（SSD主码 + HBM候选码 + 版本记录）
-├── scripts/
-│   ├── kcs_fetcher.py       # KCS关税汇率+快讯抓取
-│   ├── trass_fetcher.py     # TRASS品目统计抓取
-│   ├── signals.py           # 金额/数量/单价信号计算
-│   └── events.py            # 事件窗口划分与超额收益计算
-├── reports/
-│   └── templates/
-│       ├── ssd_brief.md     # SSD代理信号周报模板
-│       └── hbm_brief.md     # HBM代理信号周报模板
-├── notebooks/
-│   └── research/
-│       ├── ssd_signal_validation.ipynb
-│       └── hbm_pool_maintenance.ipynb
-└── cron/
-    └── run_daily.sh         # 每日流水线调度脚本
-```
-
----
-
-## ⚠️ 免责声明
-
-本项目所有数据均来源于韩国海关（KCS）与韩国贸易统计推广院（TRASS）公开信息，仅供学术研究与个人量化分析，不构成任何投资建议。编码池、口径定义和研究结论可能存在误差，引用前请自行核验。
-
----
-
-*본 프로젝트는 학술 연구 및 개인 양적 분석을 목적으로 하며, 어떠한 투자 권유도 아닙니다.*
+See SKILL.md for full documentation.
