@@ -1,0 +1,27 @@
+[
+  {
+    "hs_code": "852351",
+    "trade_type": "E",
+    "year": "2024",
+    "total_count": 2,
+    "data": [
+      {
+        "NUM": "1",
+        "COL1": "<font style=\"color:#337ab7;cursor:pointer;\">[852351] 솔리드 스테이트(solid-state)의 비휘발성 기억장치</font>",
+        "EX_AMT": "501798372",
+        "EX_WGHT": "157522.18",
+        "BASE_YEAR": "2024",
+        "BASE_MON": "01"
+      },
+      {
+        "NUM": "1",
+        "COL1": "<font style=\"color:#337ab7;cursor:pointer;\">[852351] 솔리드 스테이트(solid-state)의 비휘발성 기억장치</font>",
+        "EX_AMT": "447193036",
+        "EX_WGHT": "137300.98",
+        "BASE_YEAR": "2024",
+        "BASE_MON": "02"
+      }
+    ],
+    "fetched_at": "2026-05-16 03:49:47"
+  }
+]

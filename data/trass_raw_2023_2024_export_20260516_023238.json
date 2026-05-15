@@ -1,0 +1,244 @@
+{
+  "ssd": [
+    {
+      "hs_code": "852351",
+      "year_from": "2023",
+      "year_to": "2024",
+      "trade_type": "E",
+      "unit": "6",
+      "total_count": 1,
+      "data": [
+        {
+          "BASE_YEAR": "2023",
+          "EX_WGHT": "127267.8600",
+          "EX_BRNO_CNT": "124",
+          "TOT_CNT": "1",
+          "IM_AMT": "0",
+          "NUM": "1",
+          "IM_WGHT": "0.0000",
+          "IM_BRNO_CNT": "**",
+          "COL1_CODE": "852351",
+          "EX_AMT": "319942684.000000",
+          "COL1": "[852351] 솔리드 스테이트(solid-state)의 비휘발성 기억장치"
+        }
+      ],
+      "fetched_at": "2026-05-16 02:31:25"
+    },
+    {
+      "hs_code": "85235",
+      "year_from": "2023",
+      "year_to": "2024",
+      "trade_type": "E",
+      "unit": "10",
+      "total_count": 0,
+      "data": [],
+      "fetched_at": "2026-05-16 02:31:32"
+    },
+    {
+      "hs_code": "8542321030",
+      "year_from": "2023",
+      "year_to": "2024",
+      "trade_type": "E",
+      "unit": "10",
+      "total_count": 1,
+      "data": [
+        {
+          "BASE_YEAR": "2023",
+          "EX_WGHT": "27269.2400",
+          "EX_BRNO_CNT": "40",
+          "TOT_CNT": "1",
+          "IM_AMT": "0",
+          "NUM": "1",
+          "IM_WGHT": "0.0000",
+          "IM_BRNO_CNT": "**",
+          "COL1_CODE": "8542321030",
+          "EX_AMT": "364211620.000000",
+          "COL1": "[8542321030] 플래시 메모리"
+        }
+      ],
+      "fetched_at": "2026-05-16 02:31:39"
+    }
+  ],
+  "dram": [
+    {
+      "hs_code": "854232",
+      "year_from": "2023",
+      "year_to": "2024",
+      "trade_type": "E",
+      "unit": "6",
+      "total_count": 1,
+      "data": [
+        {
+          "BASE_YEAR": "2023",
+          "EX_WGHT": "212651.7800",
+          "EX_BRNO_CNT": "101",
+          "TOT_CNT": "1",
+          "IM_AMT": "0",
+          "NUM": "1",
+          "IM_WGHT": "0.0000",
+          "IM_BRNO_CNT": "**",
+          "COL1_CODE": "854232",
+          "EX_AMT": "2490437636.000000",
+          "COL1": "[854232] 메모리"
+        }
+      ],
+      "fetched_at": "2026-05-16 02:31:46"
+    },
+    {
+      "hs_code": "854231",
+      "year_from": "2023",
+      "year_to": "2024",
+      "trade_type": "E",
+      "unit": "6",
+      "total_count": 1,
+      "data": [
+        {
+          "BASE_YEAR": "2023",
+          "EX_WGHT": "489149.0900",
+          "EX_BRNO_CNT": "342",
+          "TOT_CNT": "1",
+          "IM_AMT": "0",
+          "NUM": "1",
+          "IM_WGHT": "0.0000",
+          "IM_BRNO_CNT": "**",
+          "COL1_CODE": "854231",
+          "EX_AMT": "2134402615.000000",
+          "COL1": "[854231] 프로세서와 컨트롤러[메모리ㆍ변환기ㆍ논리회로ㆍ증폭기ㆍ클록(clock)ㆍ타이밍(timing) 회로나 그 밖의 회로를 갖춘 것인지는 상관없다]"
+        }
+      ],
+      "fetched_at": "2026-05-16 02:31:54"
+    },
+    {
+      "hs_code": "854239",
+      "year_from": "2023",
+      "year_to": "2024",
+      "trade_type": "E",
+      "unit": "6",
+      "total_count": 1,
+      "data": [
+        {
+          "BASE_YEAR": "2023",
+          "EX_WGHT": "270871.7400",
+          "EX_BRNO_CNT": "440",
+          "TOT_CNT": "1",
+          "IM_AMT": "0",
+          "NUM": "1",
+          "IM_WGHT": "0.0000",
+          "IM_BRNO_CNT": "**",
+          "COL1_CODE": "854239",
+          "EX_AMT": "734744341.000000",
+          "COL1": "[854239] 기타"
+        }
+      ],
+      "fetched_at": "2026-05-16 02:32:01"
+    },
+    {
+      "hs_code": "8542321000",
+      "year_from": "2023",
+      "year_to": "2024",
+      "trade_type": "E",
+      "unit": "10",
+      "total_count": 0,
+      "data": [],
+      "fetched_at": "2026-05-16 02:32:08"
+    },
+    {
+      "hs_code": "8542322000",
+      "year_from": "2023",
+      "year_to": "2024",
+      "trade_type": "E",
+      "unit": "10",
+      "total_count": 1,
+      "data": [
+        {
+          "BASE_YEAR": "2023",
+          "EX_WGHT": "102.5300",
+          "EX_BRNO_CNT": "**",
+          "TOT_CNT": "1",
+          "IM_AMT": "0",
+          "NUM": "1",
+          "IM_WGHT": "0.0000",
+          "IM_BRNO_CNT": "**",
+          "COL1_CODE": "8542322000",
+          "EX_AMT": "87041.000000",
+          "COL1": "[8542322000] 하이브리드 집적회로"
+        }
+      ],
+      "fetched_at": "2026-05-16 02:32:15"
+    },
+    {
+      "hs_code": "8542323000",
+      "year_from": "2023",
+      "year_to": "2024",
+      "trade_type": "E",
+      "unit": "10",
+      "total_count": 1,
+      "data": [
+        {
+          "BASE_YEAR": "2023",
+          "EX_WGHT": "58141.2700",
+          "EX_BRNO_CNT": "16",
+          "TOT_CNT": "1",
+          "IM_AMT": "0",
+          "NUM": "1",
+          "IM_WGHT": "0.0000",
+          "IM_BRNO_CNT": "**",
+          "COL1_CODE": "8542323000",
+          "EX_AMT": "1111406272.000000",
+          "COL1": "[8542323000] 복합구조칩 집적회로"
+        }
+      ],
+      "fetched_at": "2026-05-16 02:32:23"
+    },
+    {
+      "hs_code": "8542324000",
+      "year_from": "2023",
+      "year_to": "2024",
+      "trade_type": "E",
+      "unit": "10",
+      "total_count": 1,
+      "data": [
+        {
+          "BASE_YEAR": "2023",
+          "EX_WGHT": "4900.9800",
+          "EX_BRNO_CNT": "7",
+          "TOT_CNT": "1",
+          "IM_AMT": "0",
+          "NUM": "1",
+          "IM_WGHT": "0.0000",
+          "IM_BRNO_CNT": "**",
+          "COL1_CODE": "8542324000",
+          "EX_AMT": "115347292.000000",
+          "COL1": "[8542324000] 복합부품 집적회로(MCOs)"
+        }
+      ],
+      "fetched_at": "2026-05-16 02:32:30"
+    }
+  ],
+  "nand": [
+    {
+      "hs_code": "854231",
+      "year_from": "2023",
+      "year_to": "2024",
+      "trade_type": "E",
+      "unit": "6",
+      "total_count": 1,
+      "data": [
+        {
+          "BASE_YEAR": "2023",
+          "EX_WGHT": "489149.0900",
+          "EX_BRNO_CNT": "342",
+          "TOT_CNT": "1",
+          "IM_AMT": "0",
+          "NUM": "1",
+          "IM_WGHT": "0.0000",
+          "IM_BRNO_CNT": "**",
+          "COL1_CODE": "854231",
+          "EX_AMT": "2134402615.000000",
+          "COL1": "[854231] 프로세서와 컨트롤러[메모리ㆍ변환기ㆍ논리회로ㆍ증폭기ㆍ클록(clock)ㆍ타이밍(timing) 회로나 그 밖의 회로를 갖춘 것인지는 상관없다]"
+        }
+      ],
+      "fetched_at": "2026-05-16 02:32:37"
+    }
+  ]
+}

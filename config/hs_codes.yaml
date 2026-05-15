@@ -1,0 +1,167 @@
+# HS编码池配置文件
+# 版本管理：每次修改须记录 change 字段
+# SSD与HBM分开维护，分开报告，避免混合叙事
+
+version: "2026-01"
+version_history:
+  - date: "2026-01"
+    change: "初始编码池，从TRASS HS2022分类体系建立，4位基础码已确认"
+  - date: "2026-01"
+    change: "通过trass_hs_search.py探查8542/8523/8486/8541/8471下6位和10位子码，确认SSD核心码852351，HBM无单一固定码"
+
+# ============================================================
+# SSD（固态硬盘）编码池
+# 策略：先从较明确的主编码切入，再逐步核验数量/金额/单价口径
+# ============================================================
+ssd:
+  description: "SSD（固态硬盘）代理信号"
+  primary_codes:
+    - code: "852351"
+      name: "솔리드 스테이트(solid-state)의 비휘발성 기억장치"
+      level: 6
+      status: confirmed
+      note: "SSD核心编码，TRASS已确认，10位子码含8542321030(플래시 메모리)"
+    - code: "85235"
+      name: "반도체 매체（半导体媒体）"
+      level: 6
+      status: candidate
+      note: "半导体媒体，含SSD候选"
+  ten_digit_codes:
+    - code: "8542321030"
+      name: "플래시 메모리"
+      level: 10
+      status: candidate
+      note: "闪存，可能与SSD重叠"
+  fallback_codes:
+    - code: "854231"
+      name: "프로세서와 컨트롤러（处理器与控制器）"
+      level: 6
+      status: candidate
+      note: "若852351数据不足，用作SSD代理补充"
+  unit: "EA"
+  currency: "千美元"
+  data_requirement:
+    - 出口金额（千美元）
+    - 出口数量
+    - 隐含单价 = 金额×1000 / 数量
+  research_status: "第一阶段候选"  # 候选 → 已验证 → 稳定
+
+# ============================================================
+# HBM（高带宽内存）编码池
+# 策略：HBM无单一固定编码，从DRAM/memory类编码切入，10位码池动态维护
+# ============================================================
+hbm:
+  description: "HBM（高带宽内存）代理信号"
+  # 锚点4位码
+  core_4digit:
+    - code: "8542"
+      name: "전자집적회로（电子集成电路）"
+      level: 4
+      status: confirmed
+      note: "HBM代理信号的锚点，必须从此4位向下探索10位码池"
+  # 已探明的6位码（DRAM/memory类）
+  candidate_6digit:
+    - code: "854232"
+      name: "메모리（存储器）"
+      level: 6
+      status: confirmed
+      note: "854232下有7个10位码，无任何一名称HBM，HBM包含在DRAM大类中"
+    - code: "854231"
+      name: "프로세서와 컨트롤러（处理器与控制器）"
+      level: 6
+      status: candidate
+      note: "含DRAM/逻辑混合，需进一步拆分"
+    - code: "854239"
+      name: "집적회로 기타（其他集成电路）"
+      level: 6
+      status: candidate
+      note: "其他IC，可能含HBM混类"
+  # 10位码池（854232下已探明7个，需人工确认哪些是HBM）
+  candidate_10digit:
+    - code: "8542321000"
+      name: "메모리（存储器）10位"
+      level: 10
+      status: candidate
+      parent_6: "854232"
+      likely_type: "DRAM"
+    - code: "8542322000"
+      name: "하이브리드 집적회로"
+      level: 10
+      status: candidate
+      parent_6: "854232"
+      likely_type: "HBM"  # 混合集成，可能含HBM
+    - code: "8542323000"
+      name: "복합구조칩 집적회로"
+      level: 10
+      status: candidate
+      parent_6: "854232"
+      likely_type: "HBM"  # 复合结构，可能是封装形式
+    - code: "8542324000"
+      name: "복합부품 집적회로(MCOs)"
+      level: 10
+      status: candidate
+      parent_6: "854232"
+      likely_type: "HBM"
+  # 设备信号（辅助）
+  equipment_codes:
+    - code: "848620"
+      name: "半导体器件或集成电路制造设备"
+      level: 6
+      status: candidate
+      note: "HBM产能信号，非直接代理"
+  unit: "EA"
+  currency: "千美元"
+  pool_status: "open"  # open=候选码池开放，持续维护
+  research_status: "候选码池构建中"  # 候选 → 已验证 → 稳定
+
+# ============================================================
+# TRASS HS2022 4位基础码（已通过bandtrass.or.kr/hscode/hsCode.do确认）
+# ============================================================
+base_4digit_codes:
+  semiconductor_equipment:
+    - code: "8486"
+      name: "반도체 보울·웨이퍼·디바이스 제조용 기계"
+      class: "84类"
+  semiconductor_devices:
+    - code: "8541"
+      name: "반도체 디바이스（다이오드·트랜지스터等）"
+      class: "85类"
+  integrated_circuits:
+    - code: "8542"
+      name: "전자집적회로"
+      class: "85类"
+  storage_media:
+    - code: "8523"
+      name: "비휘발성 기억장치（디스크·테이프·솔리드 스테이트）"
+      class: "85类"
+  display_modules:
+    - code: "8524"
+      name: "평판디스플레이 모듈"
+      class: "85类"
+  computers:
+    - code: "8471"
+      name: "자동자료처리기기"
+      class: "84类"
+  computer_parts:
+    - code: "8473"
+      name: "8470-8472용 부품·부속품"
+      class: "84类"
+  electrical_control:
+    - code: "8537"
+      name: "전기제어용 보드·패널·콘솔"
+      class: "85类"
+
+# ============================================================
+# 编码池版本记录规范
+# ============================================================
+versioning_rules:
+  trigger_fields:
+    - 编码增删
+    - 单位变更（EA→KG等）
+    - 口径定义变化
+    - 数据源字段重命名
+  output_format: |
+    每次变更须在version_history新增一条记录：
+    - date: "YYYY-MM"
+    - change: "变更描述"
+    - reason: "变更原因"

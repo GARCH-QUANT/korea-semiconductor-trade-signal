@@ -1,0 +1,1 @@
+signal_id,signal_group,stat_date,ticker,market,exposure_type,signal_grade,signal_score,signal_type,fwd_1d_return,fwd_3d_return,fwd_5d_return,fwd_10d_return,fwd_20d_return,excess_1d_return,excess_3d_return,excess_5d_return,excess_10d_return,excess_20d_return

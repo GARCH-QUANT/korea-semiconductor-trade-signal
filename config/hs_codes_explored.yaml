@@ -1,0 +1,2568 @@
+exploration_date: '2026-05-16'
+trees:
+- 4digit: '8542'
+  6digit:
+  - &id001
+    hscd: '85423'
+    name_kor: 전자집적회로
+    parent: '8542'
+    level: 6
+    score_ssd: 0
+    score_hbm: 1
+    best_match: HBM
+  - &id002
+    hscd: '854231'
+    name_kor: 프로세서와 컨트롤러[메모리ㆍ변환기ㆍ논리회로ㆍ증폭기ㆍ클록(clock)ㆍ타이밍(timing) 회로나 그 밖의 회로를 갖춘 것인지는
+      상관없다]
+    parent: '8542'
+    level: 6
+    score_ssd: 1
+    score_hbm: 1
+    best_match: HBM
+  - &id003
+    hscd: '854232'
+    name_kor: 메모리
+    parent: '8542'
+    level: 6
+    score_ssd: 1
+    score_hbm: 1
+    best_match: HBM
+  - hscd: '854233'
+    name_kor: 증폭기
+    parent: '8542'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '854239'
+    name_kor: 기타
+    parent: '8542'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '854290'
+    name_kor: 부분품
+    parent: '8542'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  10digit:
+  - &id004
+    hscd: '8542311000'
+    name_kor: 모노리식(monolithic) 집적회로
+    parent: '85423'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '85423'
+  - &id005
+    hscd: '8542312000'
+    name_kor: 하이브리드 집적회로
+    parent: '85423'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '85423'
+  - &id006
+    hscd: '8542313000'
+    name_kor: 복합구조칩 집적회로
+    parent: '85423'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '85423'
+  - &id007
+    hscd: '8542314000'
+    name_kor: 복합부품 집적회로(MCOs)
+    parent: '85423'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '85423'
+  - hscd: '8542321010'
+    name_kor: 디램
+    parent: '85423'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85423'
+  - hscd: '8542321020'
+    name_kor: 에스램
+    parent: '85423'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85423'
+  - &id008
+    hscd: '8542321030'
+    name_kor: 플래시 메모리
+    parent: '85423'
+    level: 10
+    score_ssd: 2
+    score_hbm: 1
+    parent_6: '85423'
+  - hscd: '8542321090'
+    name_kor: 기타
+    parent: '85423'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85423'
+  - &id009
+    hscd: '8542322000'
+    name_kor: 하이브리드 집적회로
+    parent: '85423'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '85423'
+  - &id010
+    hscd: '8542323000'
+    name_kor: 복합구조칩 집적회로
+    parent: '85423'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '85423'
+  - &id011
+    hscd: '8542324000'
+    name_kor: 복합부품 집적회로(MCOs)
+    parent: '85423'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '85423'
+  - &id012
+    hscd: '8542331000'
+    name_kor: 모노리식(monolithic) 집적회로
+    parent: '85423'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '85423'
+  - &id013
+    hscd: '8542332000'
+    name_kor: 하이브리드 집적회로
+    parent: '85423'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '85423'
+  - &id014
+    hscd: '8542333000'
+    name_kor: 복합구조칩 집적회로
+    parent: '85423'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '85423'
+  - &id015
+    hscd: '8542334000'
+    name_kor: 복합부품 집적회로(MCOs)
+    parent: '85423'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '85423'
+  - &id016
+    hscd: '8542391000'
+    name_kor: 모노리식(monolithic) 집적회로
+    parent: '85423'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '85423'
+  - &id017
+    hscd: '8542392000'
+    name_kor: 하이브리드 집적회로
+    parent: '85423'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '85423'
+  - &id018
+    hscd: '8542393000'
+    name_kor: 복합구조칩 집적회로
+    parent: '85423'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '85423'
+  - &id019
+    hscd: '8542394000'
+    name_kor: 복합부품 집적회로(MCOs)
+    parent: '85423'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '85423'
+  - &id020
+    hscd: '8542311000'
+    name_kor: 모노리식(monolithic) 집적회로
+    parent: '854231'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '854231'
+  - &id021
+    hscd: '8542312000'
+    name_kor: 하이브리드 집적회로
+    parent: '854231'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '854231'
+  - &id022
+    hscd: '8542313000'
+    name_kor: 복합구조칩 집적회로
+    parent: '854231'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '854231'
+  - &id023
+    hscd: '8542314000'
+    name_kor: 복합부품 집적회로(MCOs)
+    parent: '854231'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '854231'
+  - hscd: '8542321010'
+    name_kor: 디램
+    parent: '854232'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854232'
+  - hscd: '8542321020'
+    name_kor: 에스램
+    parent: '854232'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854232'
+  - &id024
+    hscd: '8542321030'
+    name_kor: 플래시 메모리
+    parent: '854232'
+    level: 10
+    score_ssd: 2
+    score_hbm: 1
+    parent_6: '854232'
+  - hscd: '8542321090'
+    name_kor: 기타
+    parent: '854232'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854232'
+  - &id025
+    hscd: '8542322000'
+    name_kor: 하이브리드 집적회로
+    parent: '854232'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '854232'
+  - &id026
+    hscd: '8542323000'
+    name_kor: 복합구조칩 집적회로
+    parent: '854232'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '854232'
+  - &id027
+    hscd: '8542324000'
+    name_kor: 복합부품 집적회로(MCOs)
+    parent: '854232'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '854232'
+  - &id028
+    hscd: '8542331000'
+    name_kor: 모노리식(monolithic) 집적회로
+    parent: '854233'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '854233'
+  - &id029
+    hscd: '8542332000'
+    name_kor: 하이브리드 집적회로
+    parent: '854233'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '854233'
+  - &id030
+    hscd: '8542333000'
+    name_kor: 복합구조칩 집적회로
+    parent: '854233'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '854233'
+  - &id031
+    hscd: '8542334000'
+    name_kor: 복합부품 집적회로(MCOs)
+    parent: '854233'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '854233'
+  - &id032
+    hscd: '8542391000'
+    name_kor: 모노리식(monolithic) 집적회로
+    parent: '854239'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '854239'
+  - &id033
+    hscd: '8542392000'
+    name_kor: 하이브리드 집적회로
+    parent: '854239'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '854239'
+  - &id034
+    hscd: '8542393000'
+    name_kor: 복합구조칩 집적회로
+    parent: '854239'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '854239'
+  - &id035
+    hscd: '8542394000'
+    name_kor: 복합부품 집적회로(MCOs)
+    parent: '854239'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '854239'
+  - hscd: '8542900000'
+    name_kor: 부분품
+    parent: '854290'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854290'
+  relevant_6:
+  - *id001
+  - *id002
+  - *id003
+  relevant_10:
+  - *id004
+  - *id005
+  - *id006
+  - *id007
+  - *id008
+  - *id009
+  - *id010
+  - *id011
+  - *id012
+  - *id013
+  - *id014
+  - *id015
+  - *id016
+  - *id017
+  - *id018
+  - *id019
+  - *id020
+  - *id021
+  - *id022
+  - *id023
+  - *id024
+  - *id025
+  - *id026
+  - *id027
+  - *id028
+  - *id029
+  - *id030
+  - *id031
+  - *id032
+  - *id033
+  - *id034
+  - *id035
+- 4digit: '8523'
+  6digit:
+  - hscd: '85232'
+    name_kor: 자기식 매체
+    parent: '8523'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '852321'
+    name_kor: 마그네틱 스트라이프(magnetic stripe)를 갖춘 카드(기록된 것인지에 상관없다)
+    parent: '8523'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '852329'
+    name_kor: 기타
+    parent: '8523'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '85234'
+    name_kor: 광학식 매체
+    parent: '8523'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '852341'
+    name_kor: 기록이 안 된 것
+    parent: '8523'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '852349'
+    name_kor: 기타
+    parent: '8523'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - &id036
+    hscd: '85235'
+    name_kor: 반도체 매체
+    parent: '8523'
+    level: 6
+    score_ssd: 1
+    score_hbm: 0
+    best_match: SSD
+  - &id037
+    hscd: '852351'
+    name_kor: 솔리드 스테이트(solid-state)의 비휘발성 기억장치
+    parent: '8523'
+    level: 6
+    score_ssd: 1
+    score_hbm: 0
+    best_match: SSD
+  - hscd: '852352'
+    name_kor: 스마트카드
+    parent: '8523'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '852359'
+    name_kor: 기타
+    parent: '8523'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '852380'
+    name_kor: 기타
+    parent: '8523'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  10digit:
+  - hscd: '8523210000'
+    name_kor: 마그네틱 스트라이프(magnetic stripe)를 갖춘 카드(기록된 것인지에 상관없다)
+    parent: '85232'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85232'
+  - hscd: '8523291000'
+    name_kor: 기록이 안 된 매체
+    parent: '85232'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85232'
+  - hscd: '8523292010'
+    name_kor: 컴퓨터 소프트웨어를 수록한 것
+    parent: '85232'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85232'
+  - hscd: '8523292020'
+    name_kor: 비디오 녹화된 것
+    parent: '85232'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85232'
+  - hscd: '8523292030'
+    name_kor: 음성만을 기록한 것
+    parent: '85232'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85232'
+  - hscd: '8523292090'
+    name_kor: 기타
+    parent: '85232'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85232'
+  - hscd: '8523210000'
+    name_kor: 마그네틱 스트라이프(magnetic stripe)를 갖춘 카드(기록된 것인지에 상관없다)
+    parent: '852321'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852321'
+  - hscd: '8523291000'
+    name_kor: 기록이 안 된 매체
+    parent: '852329'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852329'
+  - hscd: '8523292010'
+    name_kor: 컴퓨터 소프트웨어를 수록한 것
+    parent: '852329'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852329'
+  - hscd: '8523292020'
+    name_kor: 비디오 녹화된 것
+    parent: '852329'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852329'
+  - hscd: '8523292030'
+    name_kor: 음성만을 기록한 것
+    parent: '852329'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852329'
+  - hscd: '8523292090'
+    name_kor: 기타
+    parent: '852329'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852329'
+  - hscd: '8523410000'
+    name_kor: 기록이 안 된 것
+    parent: '85234'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85234'
+  - hscd: '8523491010'
+    name_kor: 컴퓨터 소프트웨어를 수록한 것
+    parent: '85234'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85234'
+  - hscd: '8523491030'
+    name_kor: 비디오 녹화된 것
+    parent: '85234'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85234'
+  - hscd: '8523491040'
+    name_kor: 음성만을 기록한 것
+    parent: '85234'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85234'
+  - hscd: '8523491090'
+    name_kor: 기타
+    parent: '85234'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85234'
+  - hscd: '8523499010'
+    name_kor: 컴퓨터 소프트웨어를 수록한 것
+    parent: '85234'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85234'
+  - hscd: '8523499020'
+    name_kor: 비디오 녹화된 것
+    parent: '85234'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85234'
+  - hscd: '8523499030'
+    name_kor: 음성만을 기록한 것
+    parent: '85234'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85234'
+  - hscd: '8523499090'
+    name_kor: 기타
+    parent: '85234'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85234'
+  - hscd: '8523410000'
+    name_kor: 기록이 안 된 것
+    parent: '852341'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852341'
+  - hscd: '8523491010'
+    name_kor: 컴퓨터 소프트웨어를 수록한 것
+    parent: '852349'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852349'
+  - hscd: '8523491030'
+    name_kor: 비디오 녹화된 것
+    parent: '852349'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852349'
+  - hscd: '8523491040'
+    name_kor: 음성만을 기록한 것
+    parent: '852349'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852349'
+  - hscd: '8523491090'
+    name_kor: 기타
+    parent: '852349'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852349'
+  - hscd: '8523499010'
+    name_kor: 컴퓨터 소프트웨어를 수록한 것
+    parent: '852349'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852349'
+  - hscd: '8523499020'
+    name_kor: 비디오 녹화된 것
+    parent: '852349'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852349'
+  - hscd: '8523499030'
+    name_kor: 음성만을 기록한 것
+    parent: '852349'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852349'
+  - hscd: '8523499090'
+    name_kor: 기타
+    parent: '852349'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852349'
+  - hscd: '8523511000'
+    name_kor: 기록이 안 된 매체
+    parent: '85235'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85235'
+  - hscd: '8523512010'
+    name_kor: 컴퓨터 소프트웨어를 수록한 것
+    parent: '85235'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85235'
+  - hscd: '8523512020'
+    name_kor: 비디오 녹화된 것
+    parent: '85235'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85235'
+  - hscd: '8523512030'
+    name_kor: 음성만을 기록한 것
+    parent: '85235'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85235'
+  - hscd: '8523512090'
+    name_kor: 기타
+    parent: '85235'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85235'
+  - &id038
+    hscd: '8523521000'
+    name_kor: 한 개의 전자집적회로를 갖춘 것과 그 부분품
+    parent: '85235'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '85235'
+  - hscd: '8523522000'
+    name_kor: 기타(프록시미티 카드(proximity card)와 태그로 한정한다)
+    parent: '85235'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85235'
+  - hscd: '8523529000'
+    name_kor: 기타와 그 부분품
+    parent: '85235'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85235'
+  - hscd: '8523591000'
+    name_kor: 기록이 안 된 매체
+    parent: '85235'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85235'
+  - hscd: '8523592010'
+    name_kor: 컴퓨터 소프트웨어를 수록한 것
+    parent: '85235'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85235'
+  - hscd: '8523592020'
+    name_kor: 비디오 녹화된 것
+    parent: '85235'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85235'
+  - hscd: '8523592030'
+    name_kor: 음성만을 기록한 것
+    parent: '85235'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85235'
+  - hscd: '8523592090'
+    name_kor: 기타
+    parent: '85235'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85235'
+  - hscd: '8523511000'
+    name_kor: 기록이 안 된 매체
+    parent: '852351'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852351'
+  - hscd: '8523512010'
+    name_kor: 컴퓨터 소프트웨어를 수록한 것
+    parent: '852351'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852351'
+  - hscd: '8523512020'
+    name_kor: 비디오 녹화된 것
+    parent: '852351'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852351'
+  - hscd: '8523512030'
+    name_kor: 음성만을 기록한 것
+    parent: '852351'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852351'
+  - hscd: '8523512090'
+    name_kor: 기타
+    parent: '852351'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852351'
+  - &id039
+    hscd: '8523521000'
+    name_kor: 한 개의 전자집적회로를 갖춘 것과 그 부분품
+    parent: '852352'
+    level: 10
+    score_ssd: 0
+    score_hbm: 1
+    parent_6: '852352'
+  - hscd: '8523522000'
+    name_kor: 기타(프록시미티 카드(proximity card)와 태그로 한정한다)
+    parent: '852352'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852352'
+  - hscd: '8523529000'
+    name_kor: 기타와 그 부분품
+    parent: '852352'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852352'
+  - hscd: '8523591000'
+    name_kor: 기록이 안 된 매체
+    parent: '852359'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852359'
+  - hscd: '8523592010'
+    name_kor: 컴퓨터 소프트웨어를 수록한 것
+    parent: '852359'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852359'
+  - hscd: '8523592020'
+    name_kor: 비디오 녹화된 것
+    parent: '852359'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852359'
+  - hscd: '8523592030'
+    name_kor: 음성만을 기록한 것
+    parent: '852359'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852359'
+  - hscd: '8523592090'
+    name_kor: 기타
+    parent: '852359'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852359'
+  - hscd: '8523801000'
+    name_kor: 기록이 안 된 매체
+    parent: '852380'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852380'
+  - hscd: '8523802010'
+    name_kor: 컴퓨터 소프트웨어를 수록한 것
+    parent: '852380'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852380'
+  - hscd: '8523802020'
+    name_kor: 비디오 녹화된 것
+    parent: '852380'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852380'
+  - hscd: '8523802030'
+    name_kor: 음성만을 기록한 것
+    parent: '852380'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852380'
+  - hscd: '8523802090'
+    name_kor: 기타
+    parent: '852380'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '852380'
+  relevant_6:
+  - *id036
+  - *id037
+  relevant_10:
+  - *id038
+  - *id039
+- 4digit: '8486'
+  6digit:
+  - hscd: '848610'
+    name_kor: 보울(boule)이나 웨이퍼(wafer) 제조용 기계와 기기
+    parent: '8486'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - &id040
+    hscd: '848620'
+    name_kor: 반도체 디바이스나 전자집적회로 제조용 기계와 기기
+    parent: '8486'
+    level: 6
+    score_ssd: 1
+    score_hbm: 1
+    best_match: HBM
+  - hscd: '848630'
+    name_kor: 평판디스플레이 제조용 기계와 기기
+    parent: '8486'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '848640'
+    name_kor: 이 류의 주 제11호다목에서 특정한 기계와 기기
+    parent: '8486'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '848690'
+    name_kor: 부분품과 부속품
+    parent: '8486'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  10digit:
+  - hscd: '8486101000'
+    name_kor: 스핀 드라이어(원심분리방식으로 한정한다)
+    parent: '848610'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848610'
+  - hscd: '8486102000'
+    name_kor: 단결정 보울(boule)을 성장시키는 기계
+    parent: '848610'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848610'
+  - hscd: '8486103010'
+    name_kor: 단결정 보울(boule)을 얇게 절단하는 기기
+    parent: '848610'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848610'
+  - hscd: '8486103020'
+    name_kor: 웨이퍼 가공용의 연마기ㆍ광택기(래핑기를 포함한다)
+    parent: '848610'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848610'
+  - hscd: '8486103090'
+    name_kor: 기타
+    parent: '848610'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848610'
+  - hscd: '8486104010'
+    name_kor: 레이저나 그 밖의 광선ㆍ광자빔 방식에 의한 것
+    parent: '848610'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848610'
+  - hscd: '8486104020'
+    name_kor: 전기화학ㆍ전자빔ㆍ이온빔이나 플라즈마아크방식에 의한 것
+    parent: '848610'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848610'
+  - hscd: '8486105010'
+    name_kor: 저항가열식의 노(爐)와 오븐
+    parent: '848610'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848610'
+  - hscd: '8486105030'
+    name_kor: 그 밖의 노(爐)와 오븐
+    parent: '848610'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848610'
+  - hscd: '8486109000'
+    name_kor: 기타
+    parent: '848610'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848610'
+  - hscd: '8486201000'
+    name_kor: 스핀 드라이어(원심분리방식으로 한정한다)
+    parent: '848620'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848620'
+  - hscd: '8486202100'
+    name_kor: 저항가열식의 노(爐)와 오븐
+    parent: '848620'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848620'
+  - hscd: '8486202200'
+    name_kor: 전자유도식ㆍ유전식 노(爐)와 오븐
+    parent: '848620'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848620'
+  - hscd: '8486202300'
+    name_kor: 그 밖의 노(爐)와 오븐
+    parent: '848620'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848620'
+  - &id041
+    hscd: '8486203000'
+    name_kor: 반도체재료 도핑용 이온주입기
+    parent: '848620'
+    level: 10
+    score_ssd: 1
+    score_hbm: 0
+    parent_6: '848620'
+  - &id042
+    hscd: '8486204000'
+    name_kor: 반도체웨이퍼 위에 막을 형성하거나 금속을 증착하는 기계
+    parent: '848620'
+    level: 10
+    score_ssd: 1
+    score_hbm: 0
+    parent_6: '848620'
+  - hscd: '8486205000'
+    name_kor: 굽힘용ㆍ접음용ㆍ교정용ㆍ펼침용 금속가공 공작기계(프레스를 포함한다)
+    parent: '848620'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848620'
+  - &id043
+    hscd: '8486206010'
+    name_kor: 반도체웨이퍼 위에 직접 그리는 기기
+    parent: '848620'
+    level: 10
+    score_ssd: 1
+    score_hbm: 0
+    parent_6: '848620'
+  - hscd: '8486206020'
+    name_kor: 스텝 앤 리피트 얼라이너
+    parent: '848620'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848620'
+  - hscd: '8486206091'
+    name_kor: 레이저 작동식 기기
+    parent: '848620'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848620'
+  - hscd: '8486206099'
+    name_kor: 기타
+    parent: '848620'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848620'
+  - &id044
+    hscd: '8486207000'
+    name_kor: 반도체 웨이퍼를 습식 식각, 현상, 스트리핑하거나 세척하는 기계
+    parent: '848620'
+    level: 10
+    score_ssd: 1
+    score_hbm: 0
+    parent_6: '848620'
+  - hscd: '8486208100'
+    name_kor: 레이저나 그 밖의 광선ㆍ광자빔 방식에 의한 것
+    parent: '848620'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848620'
+  - &id045
+    hscd: '8486208410'
+    name_kor: 반도체재료의 건식식각 패턴용의 것
+    parent: '848620'
+    level: 10
+    score_ssd: 1
+    score_hbm: 0
+    parent_6: '848620'
+  - &id046
+    hscd: '8486208420'
+    name_kor: 반도체웨이퍼를 스트리핑하거나 세척하는 기기
+    parent: '848620'
+    level: 10
+    score_ssd: 1
+    score_hbm: 0
+    parent_6: '848620'
+  - hscd: '8486208490'
+    name_kor: 기타
+    parent: '848620'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848620'
+  - hscd: '8486209100'
+    name_kor: 액체나 분말의 분사용ㆍ살포용ㆍ분무용 기기
+    parent: '848620'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848620'
+  - hscd: '8486209200'
+    name_kor: 포토레지스트를 도포ㆍ현상ㆍ경화시키는 기계
+    parent: '848620'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848620'
+  - &id047
+    hscd: '8486209310'
+    name_kor: 반도체 웨이퍼가공용의 연마기ㆍ광택기(래핑기를 포함한다)
+    parent: '848620'
+    level: 10
+    score_ssd: 1
+    score_hbm: 0
+    parent_6: '848620'
+  - &id048
+    hscd: '8486209320'
+    name_kor: 반도체 웨이퍼의 스크라이빙ㆍ스코어링을 위한 다이싱기
+    parent: '848620'
+    level: 10
+    score_ssd: 1
+    score_hbm: 0
+    parent_6: '848620'
+  - hscd: '8486209390'
+    name_kor: 기타
+    parent: '848620'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848620'
+  - hscd: '8486209400'
+    name_kor: 웨이퍼ㆍ캐리어ㆍ튜브를 세척하는 기계
+    parent: '848620'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848620'
+  - &id049
+    hscd: '8486209500'
+    name_kor: 반도체웨이퍼 위에 테이프를 부착시키는 기계
+    parent: '848620'
+    level: 10
+    score_ssd: 1
+    score_hbm: 0
+    parent_6: '848620'
+  - &id050
+    hscd: '8486209600'
+    name_kor: 반도체웨이퍼를 개별 칩으로 절단하는 기기
+    parent: '848620'
+    level: 10
+    score_ssd: 1
+    score_hbm: 0
+    parent_6: '848620'
+  - hscd: '8486209900'
+    name_kor: 기타
+    parent: '848620'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848620'
+  - hscd: '8486301010'
+    name_kor: 연마기ㆍ광택기
+    parent: '848630'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848630'
+  - hscd: '8486301020'
+    name_kor: 도포 또는 현상기
+    parent: '848630'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848630'
+  - hscd: '8486301031'
+    name_kor: 물리적 방식의 것
+    parent: '848630'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848630'
+  - hscd: '8486301032'
+    name_kor: 화학적 방식의 것
+    parent: '848630'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848630'
+  - hscd: '8486301040'
+    name_kor: 감광성 평판디스플레이용 기판에 회로모형을 투영하거나 드로잉하는 기기
+    parent: '848630'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848630'
+  - hscd: '8486301050'
+    name_kor: 식각기
+    parent: '848630'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848630'
+  - hscd: '8486301060'
+    name_kor: 스트리핑하거나 세척하는 기기
+    parent: '848630'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848630'
+  - hscd: '8486301090'
+    name_kor: 기타
+    parent: '848630'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848630'
+  - hscd: '8486302010'
+    name_kor: 연마기ㆍ광택기
+    parent: '848630'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848630'
+  - hscd: '8486302020'
+    name_kor: 도포 또는 현상기
+    parent: '848630'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848630'
+  - hscd: '8486302031'
+    name_kor: 물리적 방식의 것
+    parent: '848630'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848630'
+  - hscd: '8486302032'
+    name_kor: 화학적 방식의 것
+    parent: '848630'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848630'
+  - hscd: '8486302040'
+    name_kor: 감광성 평판디스플레이용기판에 회로모형을 투영하거나 드로잉하는 기기
+    parent: '848630'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848630'
+  - hscd: '8486302050'
+    name_kor: 식각기
+    parent: '848630'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848630'
+  - hscd: '8486302060'
+    name_kor: 스트리핑하거나 세척하는 기기
+    parent: '848630'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848630'
+  - hscd: '8486302070'
+    name_kor: 액정 공정용 기기
+    parent: '848630'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848630'
+  - hscd: '8486302090'
+    name_kor: 기타
+    parent: '848630'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848630'
+  - hscd: '8486401010'
+    name_kor: 패턴형성기(주로 사진 감광액이 도포된 감광판으로부터 마스크와 레티클을 제조하기 위해 사용되는 것)
+    parent: '848640'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848640'
+  - hscd: '8486401020'
+    name_kor: 마스크와 레티클을 처리ㆍ수리하기 위한 포커스드 이온빔 밀링기
+    parent: '848640'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848640'
+  - hscd: '8486401030'
+    name_kor: 포토레지스트를 도포ㆍ현상ㆍ경화시키는 기계
+    parent: '848640'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848640'
+  - hscd: '8486401040'
+    name_kor: 마스크와 레티클을 식각, 세척, 스트리핑하는 기계와 기기
+    parent: '848640'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848640'
+  - hscd: '8486401090'
+    name_kor: 기타
+    parent: '848640'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848640'
+  - &id051
+    hscd: '8486402010'
+    name_kor: 반도체 조립용의 다이 부착기, 테이프자동접착기ㆍ와이어접착기
+    parent: '848640'
+    level: 10
+    score_ssd: 1
+    score_hbm: 0
+    parent_6: '848640'
+  - &id052
+    hscd: '8486402020'
+    name_kor: 반도체 디바이스를 삽입ㆍ제거시키는 기계
+    parent: '848640'
+    level: 10
+    score_ssd: 1
+    score_hbm: 0
+    parent_6: '848640'
+  - &id053
+    hscd: '8486402031'
+    name_kor: 반도체조립용 인캡슐레이션 기기
+    parent: '848640'
+    level: 10
+    score_ssd: 1
+    score_hbm: 0
+    parent_6: '848640'
+  - hscd: '8486402039'
+    name_kor: 기타
+    parent: '848640'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848640'
+  - &id054
+    hscd: '8486402040'
+    name_kor: 납볼을 반도체 제조용 인쇄회로기판이나 세라믹기판에 탑재하는 기계
+    parent: '848640'
+    level: 10
+    score_ssd: 1
+    score_hbm: 0
+    parent_6: '848640'
+  - hscd: '8486402070'
+    name_kor: 사출식ㆍ압축식의 고무ㆍ플라스틱 성형용 주형
+    parent: '848640'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848640'
+  - &id055
+    hscd: '8486402080'
+    name_kor: 반도체 다이를 부착하거나 웨이퍼, 캐리어, 튜브를 세척하는 기계
+    parent: '848640'
+    level: 10
+    score_ssd: 1
+    score_hbm: 0
+    parent_6: '848640'
+  - &id056
+    hscd: '8486402091'
+    name_kor: 굽힘용ㆍ접음용ㆍ교정용ㆍ펼침용 금속가공 공작기계(반도체 리드의 것으로서 프레스를 포함하며, 수치제어식의 여부는 상관없다)
+    parent: '848640'
+    level: 10
+    score_ssd: 1
+    score_hbm: 0
+    parent_6: '848640'
+  - hscd: '8486402093'
+    name_kor: 웨이퍼의 절단 이전에 전체 웨이퍼에 연결접점(범프)을 형성하는 웨이퍼 범핑용 기기
+    parent: '848640'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848640'
+  - hscd: '8486402095'
+    name_kor: 저항가열식의 전기식 노(爐)와 오븐
+    parent: '848640'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848640'
+  - hscd: '8486402099'
+    name_kor: 기타
+    parent: '848640'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848640'
+  - &id057
+    hscd: '8486403010'
+    name_kor: 반도체 소자 제조용 웨이퍼, 웨이퍼카셋트, 상자나 그 밖의 물품을 이송, 핸들링 그리고 저장하기 위한 것
+    parent: '848640'
+    level: 10
+    score_ssd: 1
+    score_hbm: 0
+    parent_6: '848640'
+  - hscd: '8486403020'
+    name_kor: 평판디스플레이의 권양(捲揚), 취급, 적하(積荷)나 양하(揚荷)용의 것
+    parent: '848640'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848640'
+  - hscd: '8486403090'
+    name_kor: 기타
+    parent: '848640'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848640'
+  - hscd: '8486901000'
+    name_kor: 보울ㆍ웨이퍼 제조용 기계와 기기의 것
+    parent: '848690'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848690'
+  - hscd: '8486902030'
+    name_kor: 정전식 척(chuck)
+    parent: '848690'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848690'
+  - hscd: '8486902040'
+    name_kor: 도포ㆍ현상ㆍ증착ㆍ식각용 기기의 것
+    parent: '848690'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848690'
+  - hscd: '8486902090'
+    name_kor: 기타
+    parent: '848690'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848690'
+  - hscd: '8486903050'
+    name_kor: 유기발광다이오드(오엘이디) 디스플레이 제조용기기의 것
+    parent: '848690'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848690'
+  - hscd: '8486903060'
+    name_kor: 액정 디스플레이 제조용 기기의 것
+    parent: '848690'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848690'
+  - hscd: '8486903090'
+    name_kor: 기타
+    parent: '848690'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848690'
+  - hscd: '8486904000'
+    name_kor: 이 류의 주 제11호다목에서 특정한 기계와 기기의 것
+    parent: '848690'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '848690'
+  relevant_6:
+  - *id040
+  relevant_10:
+  - *id041
+  - *id042
+  - *id043
+  - *id044
+  - *id045
+  - *id046
+  - *id047
+  - *id048
+  - *id049
+  - *id050
+  - *id051
+  - *id052
+  - *id053
+  - *id054
+  - *id055
+  - *id056
+  - *id057
+- 4digit: '8541'
+  6digit:
+  - hscd: '854110'
+    name_kor: 다이오드(감광성 다이오드나 발광다이오드는 제외한다)
+    parent: '8541'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '85412'
+    name_kor: 트랜지스터(감광성 트랜지스터는 제외한다)
+    parent: '8541'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '854121'
+    name_kor: 전력 낭비율이 1와트 미만인 것
+    parent: '8541'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '854129'
+    name_kor: 기타
+    parent: '8541'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '854130'
+    name_kor: 사이리스터(thyristor), 다이액(diac), 트라이액(triac)(감광성 디바이스는 제외한다)
+    parent: '8541'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - &id058
+    hscd: '85414'
+    name_kor: 감광성 반도체 디바이스(광전지는 모듈에 조립되었거나 패널로 구성되었는지 여부와 관계없이 포함한다)와 발광다이오드(엘이디)
+    parent: '8541'
+    level: 6
+    score_ssd: 1
+    score_hbm: 0
+    best_match: SSD
+  - hscd: '854141'
+    name_kor: 발광다이오드(엘이디)
+    parent: '8541'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '854142'
+    name_kor: 광전지(모듈에 조립되었거나 패널로 구성된 것은 제외한다)
+    parent: '8541'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '854143'
+    name_kor: 광전지(모듈에 조립되었거나 패널로 구성된 것으로 한정한다)
+    parent: '8541'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '854149'
+    name_kor: 기타
+    parent: '8541'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - &id059
+    hscd: '85415'
+    name_kor: 그 밖의 반도체 디바이스
+    parent: '8541'
+    level: 6
+    score_ssd: 1
+    score_hbm: 0
+    best_match: SSD
+  - &id060
+    hscd: '854151'
+    name_kor: 반도체 기반 트랜스듀서
+    parent: '8541'
+    level: 6
+    score_ssd: 1
+    score_hbm: 0
+    best_match: SSD
+  - hscd: '854159'
+    name_kor: 기타
+    parent: '8541'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '854160'
+    name_kor: 장착된 압전기 결정소자
+    parent: '8541'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '854190'
+    name_kor: 부분품
+    parent: '8541'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  10digit:
+  - hscd: '8541101000'
+    name_kor: 칩, 다이스와 절단되지 않은 웨이퍼
+    parent: '854110'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854110'
+  - hscd: '8541109000'
+    name_kor: 기타
+    parent: '854110'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854110'
+  - hscd: '8541211000'
+    name_kor: 칩, 다이스와 절단되지 않은 웨이퍼
+    parent: '85412'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85412'
+  - hscd: '8541219000'
+    name_kor: 기타
+    parent: '85412'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85412'
+  - hscd: '8541291000'
+    name_kor: 칩, 다이스와 절단되지 않은 웨이퍼
+    parent: '85412'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85412'
+  - hscd: '8541299000'
+    name_kor: 기타
+    parent: '85412'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85412'
+  - hscd: '8541211000'
+    name_kor: 칩, 다이스와 절단되지 않은 웨이퍼
+    parent: '854121'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854121'
+  - hscd: '8541219000'
+    name_kor: 기타
+    parent: '854121'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854121'
+  - hscd: '8541291000'
+    name_kor: 칩, 다이스와 절단되지 않은 웨이퍼
+    parent: '854129'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854129'
+  - hscd: '8541299000'
+    name_kor: 기타
+    parent: '854129'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854129'
+  - hscd: '8541301000'
+    name_kor: 칩, 다이스와 절단되지 않은 웨이퍼
+    parent: '854130'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854130'
+  - hscd: '8541302000'
+    name_kor: 사이리스터(thyristor)
+    parent: '854130'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854130'
+  - hscd: '8541303000'
+    name_kor: 다이액(diac)
+    parent: '854130'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854130'
+  - hscd: '8541304000'
+    name_kor: 트라이액(triac)
+    parent: '854130'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854130'
+  - hscd: '8541411000'
+    name_kor: 레이저소자
+    parent: '85414'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85414'
+  - hscd: '8541419000'
+    name_kor: 기타
+    parent: '85414'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85414'
+  - hscd: '8541420000'
+    name_kor: 광전지(모듈에 조립되었거나 패널로 구성된 것은 제외한다)
+    parent: '85414'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85414'
+  - hscd: '8541430000'
+    name_kor: 광전지(모듈에 조립되었거나 패널로 구성된 것으로 한정한다)
+    parent: '85414'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85414'
+  - hscd: '8541491000'
+    name_kor: 칩, 다이스와 절단되지 않은 웨이퍼
+    parent: '85414'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85414'
+  - hscd: '8541492000'
+    name_kor: 광전도 셀
+    parent: '85414'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85414'
+  - hscd: '8541493000'
+    name_kor: 전하결합소자
+    parent: '85414'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85414'
+  - hscd: '8541499000'
+    name_kor: 기타
+    parent: '85414'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85414'
+  - hscd: '8541411000'
+    name_kor: 레이저소자
+    parent: '854141'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854141'
+  - hscd: '8541419000'
+    name_kor: 기타
+    parent: '854141'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854141'
+  - hscd: '8541420000'
+    name_kor: 광전지(모듈에 조립되었거나 패널로 구성된 것은 제외한다)
+    parent: '854142'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854142'
+  - hscd: '8541430000'
+    name_kor: 광전지(모듈에 조립되었거나 패널로 구성된 것으로 한정한다)
+    parent: '854143'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854143'
+  - hscd: '8541491000'
+    name_kor: 칩, 다이스와 절단되지 않은 웨이퍼
+    parent: '854149'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854149'
+  - hscd: '8541492000'
+    name_kor: 광전도 셀
+    parent: '854149'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854149'
+  - hscd: '8541493000'
+    name_kor: 전하결합소자
+    parent: '854149'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854149'
+  - hscd: '8541499000'
+    name_kor: 기타
+    parent: '854149'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854149'
+  - hscd: '8541511000'
+    name_kor: 센서
+    parent: '85415'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85415'
+  - hscd: '8541512000'
+    name_kor: 액추에이터
+    parent: '85415'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85415'
+  - hscd: '8541513000'
+    name_kor: 공진기
+    parent: '85415'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85415'
+  - hscd: '8541514000'
+    name_kor: 오실레이터
+    parent: '85415'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85415'
+  - hscd: '8541591000'
+    name_kor: 칩, 다이스와 절단되지 않은 웨이퍼
+    parent: '85415'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85415'
+  - hscd: '8541599000'
+    name_kor: 기타
+    parent: '85415'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '85415'
+  - hscd: '8541511000'
+    name_kor: 센서
+    parent: '854151'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854151'
+  - hscd: '8541512000'
+    name_kor: 액추에이터
+    parent: '854151'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854151'
+  - hscd: '8541513000'
+    name_kor: 공진기
+    parent: '854151'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854151'
+  - hscd: '8541514000'
+    name_kor: 오실레이터
+    parent: '854151'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854151'
+  - hscd: '8541591000'
+    name_kor: 칩, 다이스와 절단되지 않은 웨이퍼
+    parent: '854159'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854159'
+  - hscd: '8541599000'
+    name_kor: 기타
+    parent: '854159'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854159'
+  - hscd: '8541601000'
+    name_kor: 수정진동자
+    parent: '854160'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854160'
+  - hscd: '8541609000'
+    name_kor: 기타
+    parent: '854160'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854160'
+  - hscd: '8541902000'
+    name_kor: 다이오드의 것
+    parent: '854190'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854190'
+  - hscd: '8541903000'
+    name_kor: 트랜지스터의 것
+    parent: '854190'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854190'
+  - hscd: '8541909000'
+    name_kor: 기타
+    parent: '854190'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '854190'
+  relevant_6:
+  - *id058
+  - *id059
+  - *id060
+  relevant_10: []
+- 4digit: '8471'
+  6digit:
+  - hscd: '847130'
+    name_kor: 휴대용 자동자료처리기계(중량이 10킬로그램 이하인 것으로서 적어도 중앙처리장치, 키보드, 디스플레이를 갖추고 있는 것으로
+      한정한다)
+    parent: '8471'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '84714'
+    name_kor: 그 밖의 자동자료처리기계
+    parent: '8471'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '847141'
+    name_kor: 적어도 동일 하우징 속에 중앙처리장치와 입출력장치를 내장한 것(이들이 상호 결합한 것인지에 상관없다)
+    parent: '8471'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '847149'
+    name_kor: 기타(시스템 형태로 제시된 것으로 한정한다)
+    parent: '8471'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '847150'
+    name_kor: 처리장치(소호 제8471.41호나 제8471.49호 외의 것으로서 기억장치ㆍ입력장치ㆍ출력장치 중 한 가지나 두 가지 장치를
+      동일 하우징 속에 내장한 것인지에 상관없다)
+    parent: '8471'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '847160'
+    name_kor: 입력장치나 출력장치(동일 하우징 속에 기억장치를 내장하였는지에 상관없다)
+    parent: '8471'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '847170'
+    name_kor: 기억장치
+    parent: '8471'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '847180'
+    name_kor: 그 밖의 자동자료처리기계의 단위 기기
+    parent: '8471'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  - hscd: '847190'
+    name_kor: 기타
+    parent: '8471'
+    level: 6
+    score_ssd: 0
+    score_hbm: 0
+    best_match: none
+  10digit:
+  - hscd: '8471300000'
+    name_kor: 휴대용 자동자료처리기계(중량이 10킬로그램 이하인 것으로서 적어도 중앙처리장치, 키보드, 디스플레이를 갖추고 있는 것으로
+      한정한다)
+    parent: '847130'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847130'
+  - hscd: '8471411000'
+    name_kor: 중앙처리장치의 자료전송량이 64비트 이상인 것으로서 주기억용량이 최소 64메가바이트 이상인 것
+    parent: '84714'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '84714'
+  - hscd: '8471412000'
+    name_kor: 중앙처리장치의 자료전송량이 32비트 이상인 것으로서 주기억용량이 최소 16메가바이트 이상인 것
+    parent: '84714'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '84714'
+  - hscd: '8471419000'
+    name_kor: 기타
+    parent: '84714'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '84714'
+  - hscd: '8471491010'
+    name_kor: 중앙처리장치의 자료전송량이 64비트 이상인 것으로서 주기억용량이 최소 64메가바이트 이상인 것
+    parent: '84714'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '84714'
+  - hscd: '8471491020'
+    name_kor: 중앙처리장치의 자료전송량이 32비트 이상인 것으로서 주기억용량이 최소 16메가바이트 이상인 것
+    parent: '84714'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '84714'
+  - hscd: '8471491090'
+    name_kor: 기타
+    parent: '84714'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '84714'
+  - hscd: '8471499000'
+    name_kor: 기타
+    parent: '84714'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '84714'
+  - hscd: '8471411000'
+    name_kor: 중앙처리장치의 자료전송량이 64비트 이상인 것으로서 주기억용량이 최소 64메가바이트 이상인 것
+    parent: '847141'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847141'
+  - hscd: '8471412000'
+    name_kor: 중앙처리장치의 자료전송량이 32비트 이상인 것으로서 주기억용량이 최소 16메가바이트 이상인 것
+    parent: '847141'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847141'
+  - hscd: '8471419000'
+    name_kor: 기타
+    parent: '847141'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847141'
+  - hscd: '8471491010'
+    name_kor: 중앙처리장치의 자료전송량이 64비트 이상인 것으로서 주기억용량이 최소 64메가바이트 이상인 것
+    parent: '847149'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847149'
+  - hscd: '8471491020'
+    name_kor: 중앙처리장치의 자료전송량이 32비트 이상인 것으로서 주기억용량이 최소 16메가바이트 이상인 것
+    parent: '847149'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847149'
+  - hscd: '8471491090'
+    name_kor: 기타
+    parent: '847149'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847149'
+  - hscd: '8471499000'
+    name_kor: 기타
+    parent: '847149'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847149'
+  - hscd: '8471501000'
+    name_kor: 중앙처리장치의 자료전송량이 64비트 이상인 것으로서 주기억용량이 최소 64메가바이트 이상인 것
+    parent: '847150'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847150'
+  - hscd: '8471502000'
+    name_kor: 중앙처리장치의 자료전송량이 32비트 이상인 것으로서 주기억용량이 최소 16메가바이트 이상인 것
+    parent: '847150'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847150'
+  - hscd: '8471509000'
+    name_kor: 기타
+    parent: '847150'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847150'
+  - hscd: '8471601010'
+    name_kor: 문자(표식) 판독장치
+    parent: '847160'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847160'
+  - hscd: '8471601020'
+    name_kor: 키 입력장치
+    parent: '847160'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847160'
+  - hscd: '8471601030'
+    name_kor: 마우스
+    parent: '847160'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847160'
+  - hscd: '8471601040'
+    name_kor: 스캐너
+    parent: '847160'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847160'
+  - hscd: '8471601090'
+    name_kor: 기타
+    parent: '847160'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847160'
+  - hscd: '8471602000'
+    name_kor: 출력장치
+    parent: '847160'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847160'
+  - hscd: '8471603000'
+    name_kor: 입출력 겸용의 것
+    parent: '847160'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847160'
+  - hscd: '8471701000'
+    name_kor: 주기억장치(램ㆍ롬)
+    parent: '847170'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847170'
+  - hscd: '8471702020'
+    name_kor: 하드 디스크 드라이브
+    parent: '847170'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847170'
+  - hscd: '8471702031'
+    name_kor: 씨디(CD) 드라이브
+    parent: '847170'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847170'
+  - hscd: '8471702032'
+    name_kor: 디브이디(DVD) 드라이브
+    parent: '847170'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847170'
+  - hscd: '8471702033'
+    name_kor: 블루레이 디스크 드라이브
+    parent: '847170'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847170'
+  - hscd: '8471702039'
+    name_kor: 기타
+    parent: '847170'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847170'
+  - hscd: '8471702090'
+    name_kor: 기타
+    parent: '847170'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847170'
+  - hscd: '8471709000'
+    name_kor: 기타
+    parent: '847170'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847170'
+  - hscd: '8471801000'
+    name_kor: 사운드카드
+    parent: '847180'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847180'
+  - hscd: '8471802000'
+    name_kor: 비디오 카드
+    parent: '847180'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847180'
+  - hscd: '8471809000'
+    name_kor: 기타
+    parent: '847180'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847180'
+  - hscd: '8471900000'
+    name_kor: 기타
+    parent: '847190'
+    level: 10
+    score_ssd: 0
+    score_hbm: 0
+    parent_6: '847190'
+  relevant_6: []
+  relevant_10: []
+summary:
+  exploration_date: '2026-05-16'
+  ssd_candidates:
+  - hs_code: '85235'
+    name: 반도체 매체
+    parent_4digit: '8523'
+    level: '6'
+    confidence: medium
+  - hs_code: '852351'
+    name: 솔리드 스테이트(solid-state)의 비휘발성 기억장치
+    parent_4digit: '8523'
+    level: '6'
+    confidence: medium
+  - hs_code: '85414'
+    name: 감광성 반도체 디바이스(광전지는 모듈에 조립되었거나 패널로 구성되었는지 여부와 관계없이 포함한다)와 발광다이오드(엘이디)
+    parent_4digit: '8541'
+    level: '6'
+    confidence: medium
+  - hs_code: '85415'
+    name: 그 밖의 반도체 디바이스
+    parent_4digit: '8541'
+    level: '6'
+    confidence: medium
+  - hs_code: '854151'
+    name: 반도체 기반 트랜스듀서
+    parent_4digit: '8541'
+    level: '6'
+    confidence: medium
+  hbm_candidates:
+  - hs_code: '85423'
+    name: 전자집적회로
+    parent_4digit: '8542'
+    level: '6'
+    confidence: medium
+  - hs_code: '854231'
+    name: 프로세서와 컨트롤러[메모리ㆍ변환기ㆍ논리회로ㆍ증폭기ㆍ클록(clock)ㆍ타이밍(timing) 회로나 그 밖의 회로를 갖춘 것인지는 상관없다]
+    parent_4digit: '8542'
+    level: '6'
+    confidence: medium
+  - hs_code: '854232'
+    name: 메모리
+    parent_4digit: '8542'
+    level: '6'
+    confidence: medium
+  - hs_code: '848620'
+    name: 반도체 디바이스나 전자집적회로 제조용 기계와 기기
+    parent_4digit: '8486'
+    level: '6'
+    confidence: medium
+  needs_manual_review:
+  - hs_code: '8542311000'
+    name: 모노리식(monolithic) 집적회로
+    parent_6: '85423'
+    likely_type: HBM
+  - hs_code: '8542312000'
+    name: 하이브리드 집적회로
+    parent_6: '85423'
+    likely_type: HBM
+  - hs_code: '8542313000'
+    name: 복합구조칩 집적회로
+    parent_6: '85423'
+    likely_type: HBM
+  - hs_code: '8542314000'
+    name: 복합부품 집적회로(MCOs)
+    parent_6: '85423'
+    likely_type: HBM
+  - hs_code: '8542321030'
+    name: 플래시 메모리
+    parent_6: '85423'
+    likely_type: SSD
+  - hs_code: '8542322000'
+    name: 하이브리드 집적회로
+    parent_6: '85423'
+    likely_type: HBM
+  - hs_code: '8542323000'
+    name: 복합구조칩 집적회로
+    parent_6: '85423'
+    likely_type: HBM
+  - hs_code: '8542324000'
+    name: 복합부품 집적회로(MCOs)
+    parent_6: '85423'
+    likely_type: HBM
+  - hs_code: '8542331000'
+    name: 모노리식(monolithic) 집적회로
+    parent_6: '85423'
+    likely_type: HBM
+  - hs_code: '8542332000'
+    name: 하이브리드 집적회로
+    parent_6: '85423'
+    likely_type: HBM
+  - hs_code: '8542333000'
+    name: 복합구조칩 집적회로
+    parent_6: '85423'
+    likely_type: HBM
+  - hs_code: '8542334000'
+    name: 복합부품 집적회로(MCOs)
+    parent_6: '85423'
+    likely_type: HBM
+  - hs_code: '8542391000'
+    name: 모노리식(monolithic) 집적회로
+    parent_6: '85423'
+    likely_type: HBM
+  - hs_code: '8542392000'
+    name: 하이브리드 집적회로
+    parent_6: '85423'
+    likely_type: HBM
+  - hs_code: '8542393000'
+    name: 복합구조칩 집적회로
+    parent_6: '85423'
+    likely_type: HBM
+  - hs_code: '8542394000'
+    name: 복합부품 집적회로(MCOs)
+    parent_6: '85423'
+    likely_type: HBM
+  - hs_code: '8542311000'
+    name: 모노리식(monolithic) 집적회로
+    parent_6: '854231'
+    likely_type: HBM
+  - hs_code: '8542312000'
+    name: 하이브리드 집적회로
+    parent_6: '854231'
+    likely_type: HBM
+  - hs_code: '8542313000'
+    name: 복합구조칩 집적회로
+    parent_6: '854231'
+    likely_type: HBM
+  - hs_code: '8542314000'
+    name: 복합부품 집적회로(MCOs)
+    parent_6: '854231'
+    likely_type: HBM
+  - hs_code: '8542321030'
+    name: 플래시 메모리
+    parent_6: '854232'
+    likely_type: SSD
+  - hs_code: '8542322000'
+    name: 하이브리드 집적회로
+    parent_6: '854232'
+    likely_type: HBM
+  - hs_code: '8542323000'
+    name: 복합구조칩 집적회로
+    parent_6: '854232'
+    likely_type: HBM
+  - hs_code: '8542324000'
+    name: 복합부품 집적회로(MCOs)
+    parent_6: '854232'
+    likely_type: HBM
+  - hs_code: '8542331000'
+    name: 모노리식(monolithic) 집적회로
+    parent_6: '854233'
+    likely_type: HBM
+  - hs_code: '8542332000'
+    name: 하이브리드 집적회로
+    parent_6: '854233'
+    likely_type: HBM
+  - hs_code: '8542333000'
+    name: 복합구조칩 집적회로
+    parent_6: '854233'
+    likely_type: HBM
+  - hs_code: '8542334000'
+    name: 복합부품 집적회로(MCOs)
+    parent_6: '854233'
+    likely_type: HBM
+  - hs_code: '8542391000'
+    name: 모노리식(monolithic) 집적회로
+    parent_6: '854239'
+    likely_type: HBM
+  - hs_code: '8542392000'
+    name: 하이브리드 집적회로
+    parent_6: '854239'
+    likely_type: HBM
+  - hs_code: '8542393000'
+    name: 복합구조칩 집적회로
+    parent_6: '854239'
+    likely_type: HBM
+  - hs_code: '8542394000'
+    name: 복합부품 집적회로(MCOs)
+    parent_6: '854239'
+    likely_type: HBM
+  - hs_code: '8523521000'
+    name: 한 개의 전자집적회로를 갖춘 것과 그 부분품
+    parent_6: '85235'
+    likely_type: HBM
+  - hs_code: '8523521000'
+    name: 한 개의 전자집적회로를 갖춘 것과 그 부분품
+    parent_6: '852352'
+    likely_type: HBM
+  - hs_code: '8486203000'
+    name: 반도체재료 도핑용 이온주입기
+    parent_6: '848620'
+    likely_type: SSD
+  - hs_code: '8486204000'
+    name: 반도체웨이퍼 위에 막을 형성하거나 금속을 증착하는 기계
+    parent_6: '848620'
+    likely_type: SSD
+  - hs_code: '8486206010'
+    name: 반도체웨이퍼 위에 직접 그리는 기기
+    parent_6: '848620'
+    likely_type: SSD
+  - hs_code: '8486207000'
+    name: 반도체 웨이퍼를 습식 식각, 현상, 스트리핑하거나 세척하는 기계
+    parent_6: '848620'
+    likely_type: SSD
+  - hs_code: '8486208410'
+    name: 반도체재료의 건식식각 패턴용의 것
+    parent_6: '848620'
+    likely_type: SSD
+  - hs_code: '8486208420'
+    name: 반도체웨이퍼를 스트리핑하거나 세척하는 기기
+    parent_6: '848620'
+    likely_type: SSD
+  - hs_code: '8486209310'
+    name: 반도체 웨이퍼가공용의 연마기ㆍ광택기(래핑기를 포함한다)
+    parent_6: '848620'
+    likely_type: SSD
+  - hs_code: '8486209320'
+    name: 반도체 웨이퍼의 스크라이빙ㆍ스코어링을 위한 다이싱기
+    parent_6: '848620'
+    likely_type: SSD
+  - hs_code: '8486209500'
+    name: 반도체웨이퍼 위에 테이프를 부착시키는 기계
+    parent_6: '848620'
+    likely_type: SSD
+  - hs_code: '8486209600'
+    name: 반도체웨이퍼를 개별 칩으로 절단하는 기기
+    parent_6: '848620'
+    likely_type: SSD
+  - hs_code: '8486402010'
+    name: 반도체 조립용의 다이 부착기, 테이프자동접착기ㆍ와이어접착기
+    parent_6: '848640'
+    likely_type: SSD
+  - hs_code: '8486402020'
+    name: 반도체 디바이스를 삽입ㆍ제거시키는 기계
+    parent_6: '848640'
+    likely_type: SSD
+  - hs_code: '8486402031'
+    name: 반도체조립용 인캡슐레이션 기기
+    parent_6: '848640'
+    likely_type: SSD
+  - hs_code: '8486402040'
+    name: 납볼을 반도체 제조용 인쇄회로기판이나 세라믹기판에 탑재하는 기계
+    parent_6: '848640'
+    likely_type: SSD
+  - hs_code: '8486402080'
+    name: 반도체 다이를 부착하거나 웨이퍼, 캐리어, 튜브를 세척하는 기계
+    parent_6: '848640'
+    likely_type: SSD
+  - hs_code: '8486402091'
+    name: 굽힘용ㆍ접음용ㆍ교정용ㆍ펼침용 금속가공 공작기계(반도체 리드의 것으로서 프레스를 포함하며, 수치제어식의 여부는 상관없다)
+    parent_6: '848640'
+    likely_type: SSD
+  - hs_code: '8486403010'
+    name: 반도체 소자 제조용 웨이퍼, 웨이퍼카셋트, 상자나 그 밖의 물품을 이송, 핸들링 그리고 저장하기 위한 것
+    parent_6: '848640'
+    likely_type: SSD
