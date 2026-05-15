@@ -1,0 +1,6 @@
+signal_group,ticker,exposure_type,market,notes
+SSD,SKHynix,direct,KOSPI,"SK Hynix — primary SSD/HBM DRAM manufacturer"
+SSD,Samsung,direct,KOSPI,"Samsung — SSD and DRAM production"
+HBM,NVDA,indirect,NASDAQ,"GPU demand drives HBM adoption"
+HBM,AMAT,indirect,NASDAQ,"Equipment supplier — HBM manufacturing capex"
+HBM,AMAT,indirect,NASDAQ,"Equipment supplier — HBM manufacturing capex"
